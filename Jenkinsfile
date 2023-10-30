@@ -9,7 +9,7 @@ stages{
     }
     stage('run'){
         steps {
-            sh 'java Test'
+            sh 'java Test.java'
         }
      
     }
